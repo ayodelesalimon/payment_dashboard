@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="260" height="56" viewBox="0 0 260 56">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-cloudshape-1">
+      <rect width="260" height="56"/>
+    </clipPath>
+  </defs>
+  <g id="cloudshape-1" clip-path="url(#clip-cloudshape-1)">
+    <path id="Path_14" data-name="Path 14" d="M-1442.2,1787.829s22.349-26.819,51.819-12.861,39.54-6.508,40.113-8.432,21.039-32.213,49.691-4.38,47.726-6.549,47.726-6.549,29.8-46.375,58.7,6.549,11.706,20.466,11.706,20.466v7.654H-1442.2Z" transform="translate(1440.201 -1735.808)" opacity="0.2" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

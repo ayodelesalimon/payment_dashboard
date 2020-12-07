@@ -145,16 +145,24 @@ body {
   letter-spacing: 3px;
 }
 .overviewcard:first-child {
-  background-image: url('assets/blue.svg');
+  background-image: url('../img/blue.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .overviewcard:nth-child(2) {
-  background-image: url('assets/green.svg');
+  background-image: url('../img/green.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .overviewcard:nth-child(3) {
-  background-image: url('assets/yellow.svg');
+  background-image: url('../img/yellow.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .overviewcard:nth-child(4) {
-  background-image: url('assets/red.svg');
+  background-image: url('../img/red.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .overviewcard1 {
   height: 40%;
