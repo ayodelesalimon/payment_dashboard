@@ -91,16 +91,3 @@ body {
 .footer {
   background-color: #dadada;
 }
-
-@media (max-width: 800px) {
-  .main {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-  }
-}
-
-@media (min-width: 1025px) {
-}
-
-/* Responsive */

@@ -10,24 +10,34 @@
   </head>
 
   <body>
-    <div class="grid-container">
-      <div class="menu-icon">
-        <i class="fas fa-bars header__menu"></i>
-      </div>
+    <main>
+      <header class="bg-white border-bottom py-4 mb-3">
+        <nav
+          class="container-fluid d-flex flex-column flex-sm-row justify-content-start justify-content-sm-between align-items-sm-center"
+        >
+          <div class="mb-3 mb-sm-0">
+            <div class="menu-icon mr-4">
+              <i class="fas fa-bars header__menu"></i>
+            </div>
+            <div class="sidenav__close-icon">
+              <i class="fas fa-times sidenav__brand-close"></i>
+            </div>
 
-      <header class="header">
-        <div class="header__search">Interac Payment</div>
-        <div class="header__avatar">
-          <img src="./assets/img/profile-user.svg" class="avatar__svg" />Sathish
-          G
-        </div>
+            <div class="header__search">Interac Payment</div>
+          </div>
+
+          <div class="header__avatar">
+            <img
+              src="./assets/img/profile-user.svg"
+              class="avatar__svg"
+            />Sathish G
+          </div>
+        </nav>
       </header>
 
       <aside class="sidenav">
-        <div class="sidenav__close-icon">
-          <i class="fas fa-times sidenav__brand-close"></i>
-        </div>
         <img class="logo__top" src="./assets/img/logo.png" alt="" />
+
         <ul class="sidenav__list">
           <li class="sidenav__list-item">
             <img
@@ -75,34 +85,38 @@
         </ul>
       </aside>
 
-      <main class="main">
-        <div class="main-overview">
-          <div class="overviewcard">
+      <main class="container-fluid pa-2">
+        <nav class="row">
+          <div
+            class="overviewcard col-12 col-sm-6 col-md-3 border rounded text-light p-3 ma-2 my-md-0"
+          >
             <img src="./assets/img/credit-card.svg" class="svg-overview" />
-            <div class="overviewcard__icon">Amount Loaded</div>
+            <div class="overviewcard__icon mt-3">Amount Loaded</div>
             <div class="overviewcard__info">$1,82,812</div>
           </div>
-          <div class="overviewcard">
+          <div
+            class="overviewcard col-12 col-sm-6 col-md-3 border rounded text-light p-3 ma-2 my-md-0"
+          >
             <img src="./assets/img/credit-card.svg" class="svg-overview" />
-            <div class="overviewcard__icon">Amount Received</div>
+            <div class="overviewcard__icon mt-3">Amount Received</div>
             <div class="overviewcard__info">$1,82,812</div>
           </div>
-          <div class="overviewcard">
+          <div
+            class="overviewcard col-12 col-sm-6 col-md-3 border rounded text-success p-3 ma-2 my-md-0"
+          >
             <img src="./assets/img/credit-card.svg" class="svg-overview" />
-            <div class="overviewcard__icon">Amount Sent</div>
+            <div class="overviewcard__icon mt-3">Amount Sent</div>
             <div class="overviewcard__info">$1,82,812</div>
           </div>
-          <div class="overviewcard">
+          <div
+            class="overviewcard col-12 col-sm-6 col-md-3 border rounded text-warning p-3 ma-2 my-md-0"
+          >
             <img src="./assets/img/credit-card.svg" class="svg-overview" />
-            <div class="overviewcard__icon">Amount Used</div>
+            <div class="overviewcard__icon mt-3">Amount Used</div>
             <div class="overviewcard__info">$1,82,812</div>
           </div>
-          <div class="overviewcard">
-            <img src="./assets/img/credit-card.svg" class="svg-overview" />
-            <div class="overviewcard__icon">Total Balance</div>
-            <div class="overviewcard__info">$1,82,812</div>
-          </div>
-        </div>
+        </nav>
+
         <div class="box">
           <div class="select__form">
             <select class="select__text">
@@ -141,7 +155,7 @@
               <option>Option 5</option>
             </select>
           </div>
-          <div class="find__button">Find Transaction</div>
+          <div class="find__button text-light">Find Transaction</div>
         </div>
 
         <div class="payment__history">
@@ -159,15 +173,27 @@
          </div> -->
       </main>
 
-      <footer class="footer">
-        <div class="footer__copyright">&copy; Interac Payment</div>
+      <footer class="border-top py-5 mt-8">
+        <div class="container-fluid text-center text-black-50">
+          &copy; Interac Payment
+        </div>
       </footer>
-    </div>
+    </main>
   </body>
 
   <!-- scripts -->
   <script src="./assets/js/function.js"></script>
   <script src="./assets/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
 </html>
